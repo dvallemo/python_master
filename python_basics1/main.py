@@ -20,3 +20,86 @@
 
 print(2+4)
 print(2 ** 2) #2 to the power 2
+print(5 // 4) #divide with integral result (discard remainder)
+print(6 % 4) #remainder claculation 
+
+#math fucntions: https://www.programiz.com/python-programming/modules/math
+print(round(3.1))
+
+#developers fundametals
+#1. dont read teh dictinary: dont try to learn every single function, syntax, or trick
+#use docs.python.org only as a reference when using python
+
+print(bin(5))
+print(int('0b101', 2)) #converting the binary number 0b101 into decimal intiger, which has a base 2
+#theres also a complex function
+
+#variables
+#snake case snake_case: underscore is a private variable in python
+
+#constants: must be in all caps
+PI=3.14
+
+#dunder variables: __dunder__
+#ex: __init__
+
+#multiple assignments
+a, b, c = 1, 2, 3 #assigns a=1, b=2, and b=3 in one line
+print(a)
+print(b)
+print(c)
+
+#augmented assignment operator
+some_value =5
+some_value += 1#some_value = some_value + 1
+
+#str data type
+#regular string
+regular_str = 'hello'
+print(regular_str)
+#mutiple line strings 
+long_string = '''
+
+WOW
+0 0
+---
+'''
+print(long_string)
+
+#pirnting full name using concatanation and snake_case
+first_name = 'David' #created spacing at the end or add a spacing in the full name
+last_name = 'Valle'
+full_name = first_name + ' ' + last_name
+print(full_name)
+
+#Escape sequence
+# weather = "It's "kind of"" sunny" how can we fix the cat that putting quotations around kind of cancels our string?
+#anser escape sequence, adding a \
+weather = "It's \"kind of\" sunny outside" # \ says I want everything after \ to be a string
+
+#tab and new line escape sequences
+
+weather1 = "It's \"kind of"" sunny outside \nHave a great day"
+weather2 = "\t It's \"kind of"" sunny outside \nHave a great day" #creats a tab indentation at the beginning of the string
+
+print(weather)
+print(weather1)
+print(weather2)
+
+#formated sting
+#print out a formated string: print out "Hi David, you are 25 years old"
+
+#without formatting:
+name = 'David'
+age = 25
+
+print("Hi " + name + ", you are " + str(age) + " years old")
+
+#formating
+print(f"Hi {name}, you are {age} years old")  #add f to the beggining
+# end with .format("David", "25") and remove age and name inside curly brackets for python 2
+
+
+
+
+
