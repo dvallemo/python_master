@@ -99,6 +99,25 @@ print("Hi " + name + ", you are " + str(age) + " years old")
 print(f"Hi {name}, you are {age} years old")  #add f to the beggining
 # end with .format("David", "25") and remove age and name inside curly brackets for python 2
 
+#starting and stopping in an array:
+# [start:stop:stepover]
+
+selfish = '01234567'
+          #01234567 -indexes
+print(selfish[0:2]) #prints out 01 because it starts at index 0 and ends at index 2 not including  
+print(selfish)
+print(selfish[0:8]) #same thing as printing out the whole array 
+print(selfish[0:8:1]) #same as top becuase it steps over each element by one
+print(selfish[0:8:2]) #steps over each element by 2 so it will print 0246 includes the 0 at beggining
+print(selfish[1:]) #1234567 - starts at 1 and prints the rest of the array
+print(selfish[:5]) #01234 starts from zero and ends at index 5 not including 5 so only prints out till 4
+print(selfish[::1]) #012345679 - has not beggining or end, and steps over by one each time 
+print(selfish[-1]) #7 - print the first element starting from the right
+print(selfish[::-1]) #76543210 - print the whole array in reverse order
+print(selfish[::-2]) #7531 - print whole array in reverse skipping by two.
+ 
+
+
 
 
 
