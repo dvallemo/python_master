@@ -25,6 +25,6 @@ My motivation to learning Python:
 * Scripting and automation
 * Machine Learning
 * AI assistance
-* IOT
+* IOT | https://github.com/kevinwlu/iot
 
 
