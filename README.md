@@ -20,6 +20,7 @@ Python
 * [Built-in Functions]https://docs.python.org/3/library/functions.html
 
 My motivation to learnign Python:
+* Back-end and databases 
 * Ethical hacking/Cyber security
 * Scripting and automation
 * Machine Learning 
