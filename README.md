@@ -23,6 +23,7 @@ My motivation to learnign Python:
 * Back-end and databases 
 * Ethical hacking/Cyber security
 * Scripting and automation
-* Machine Learning 
+* Machine Learning
+* IOT
 
 
