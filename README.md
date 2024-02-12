@@ -21,7 +21,7 @@ Python
 
 My motivation to learning Python:
 * Back-end and databases 
-* Ethical hacking/Cyber security
+* Ethical hacking/Cyber security | https://www.edureka.co/blog/ethical-hacking-using-python/
 * Scripting and automation
 * Machine Learning
 * AI assistance
