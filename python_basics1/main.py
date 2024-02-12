@@ -99,7 +99,7 @@ print("Hi " + name + ", you are " + str(age) + " years old")
 print(f"Hi {name}, you are {age} years old")  #add f to the beggining
 # end with .format("David", "25") and remove age and name inside curly brackets for python 2
 
-#starting and stopping in an array:
+#string slicing - starting and stopping in an array:
 # [start:stop:stepover]
 
 selfish = '01234567'
@@ -115,7 +115,35 @@ print(selfish[::1]) #012345679 - has not beggining or end, and steps over by one
 print(selfish[-1]) #7 - print the first element starting from the right
 print(selfish[::-1]) #76543210 - print the whole array in reverse order
 print(selfish[::-2]) #7531 - print whole array in reverse skipping by two.
- 
+
+# strings are immutable: cannot cahnge the value of a string once its created
+#would need to reassign the value
+quote = 'to be or not to be'
+#important string methods:
+# 1. .upper() - everything in the strigng gets capitalized
+# 2. .capitalize() - capitalizes the beggining fo the sentence, or first letter
+# 3. lower() - lower cases everything
+#4. .find() - finds a string in the string or the first occurance in the string
+#5. .replace(string1, string2) - replaces all occurences of string1 with string2
+
+#running code examples
+print(quote.upper())
+print(quote.capitalize())
+print(quote.lower())
+print(quote.find('be'))
+print(quote.replace('be', 'me'))
+print(quote) #prints out "to be or not to be" becuase strings are imutable or cannot be changed once created
+
+#creating a programm that guesses your age:
+#given
+birth_year = input('what year were you born? ')
+#prblem start
+current_year = 2024
+print(birth_year)
+guess = current_year - int(birth_year)
+print(f"You are {guess}")
+
+
 
 
 
