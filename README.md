@@ -19,7 +19,7 @@ Python
 * [String Methods]https://www.w3schools.com/python/python_ref_string.asp
 * [Built-in Functions]https://docs.python.org/3/library/functions.html
 
-My motivation to learnign Python:
+My motivation to learning Python:
 * Back-end and databases 
 * Ethical hacking/Cyber security
 * Scripting and automation
