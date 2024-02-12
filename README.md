@@ -1,5 +1,5 @@
 # Learning Python 
-Computer Engineering CPE 487
+Best practices
 * [Darian Muresan][(http://pictomic.com/Stevens/CPE487/dcdManual.pdf)](https://realpython.com/python-comments-guide/) commenting best practices for python
 
 # How to run a python scripts
