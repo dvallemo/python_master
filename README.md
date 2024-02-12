@@ -9,7 +9,7 @@ Writing Code online
 
 Python
 * Where did python come from? https://www.youtube.com/watch?v=J0Aq44Pze-w | https://www.youtube.com/watch?v=5fN3JXwer2U
-* How to learn Python - https://www.youtube.com/watch?v=F2Mx-u7auUs
+* How to learn Python from the creator - https://www.youtube.com/watch?v=F2Mx-u7auUs
 * [Python2 vs Python 3] https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html
 * [Python 2 vs Python 3 - another one] https://www.geeksforgeeks.org/important-differences-between-python-2-x-and-python-3-x-with-examples/
 * [Python-Cheat-Sheet] https://github.com/aneagoie/ztm-python-cheat-sheet
