@@ -146,8 +146,10 @@ print(selfish[::-2]) #7531 - print whole array in reverse skipping by two.
 # password length checker
 username = input("Enter your username: ")
 password = input("Enter your password: ")
-length = len(password)
-print(f"{username}, your password {'*'*length} is {length} letters long")
+password_length = len(password)
+hidden_password = '*'*password_length
+
+print(f"{username}, your password, {hidden_password} is {password_length} letters long")
 
 
 
