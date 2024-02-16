@@ -4,10 +4,10 @@ Programming fundamentals
 * [Jaya Zhané] (https://realpython.com/python-comments-guide/) commenting best practices for python
 
 
-Writing Code online
+### Writing Code online
 * https://glot.io/ Glot
 
-Python
+### Python
 * Where did python come from? https://www.youtube.com/watch?v=J0Aq44Pze-w | https://www.youtube.com/watch?v=5fN3JXwer2U
 * How to learn Python from its creator - https://www.youtube.com/watch?v=F2Mx-u7auUs
 * [Python2 vs Python 3] https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html
@@ -19,7 +19,7 @@ Python
 * [String Methods]https://www.w3schools.com/python/python_ref_string.asp
 * [Built-in Functions]https://docs.python.org/3/library/functions.html
 
-My motivation to learning Python:
+### My motivation to learning Python:
 * Back-end and databases 
 * Ethical hacking/Cyber security | https://www.edureka.co/blog/ethical-hacking-using-python/
 * Scripting and automation
