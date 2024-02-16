@@ -149,7 +149,22 @@ password = input("Enter your password: ")
 password_length = len(password)
 hidden_password = '*'*password_length
 
-print(f"{username}, your password, {hidden_password} is {password_length} letters long")
+print(f"{username}, your password, {hidden_password} is {password_length} characters long")
+
+#List slicing:
+# while strings are immutable, lists are not, their elements can be changed
+
+#appending
+
+basket = [1, 2, 3, 4, 5]
+#adding
+basket.append(100)
+new_list = basket
+print(basket)
+print(new_list) #need to append first than store to another array, cannot do at the same time
+#inset function also does simlar thing but adds at a specific index
+
+#pop method does return something, differenct methods work differently
 
 
 
