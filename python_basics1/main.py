@@ -118,7 +118,7 @@ print(selfish[::-2]) #7531 - print whole array in reverse skipping by two.
 
 # strings are immutable: cannot cahnge the value of a string once its created
 #would need to reassign the value
-quote = 'to be or not to be'
+# quote = 'to be or not to be'
 #important string methods:
 # 1. .upper() - everything in the strigng gets capitalized
 # 2. .capitalize() - capitalizes the beggining fo the sentence, or first letter
@@ -127,21 +127,27 @@ quote = 'to be or not to be'
 #5. .replace(string1, string2) - replaces all occurences of string1 with string2
 
 #running code examples
-print(quote.upper())
-print(quote.capitalize())
-print(quote.lower())
-print(quote.find('be'))
-print(quote.replace('be', 'me'))
-print(quote) #prints out "to be or not to be" becuase strings are imutable or cannot be changed once created
+# print(quote.upper())
+# print(quote.capitalize())
+# print(quote.lower())
+# print(quote.find('be'))
+# print(quote.replace('be', 'me'))
+# print(quote) #prints out "to be or not to be" becuase strings are imutable or cannot be changed once created
 
 #creating a programm that guesses your age:
 #given
-birth_year = input('what year were you born? ')
+# birth_year = input('what year were you born? ')
 #prblem start
-current_year = 2024
-print(birth_year)
-guess = current_year - int(birth_year)
-print(f"You are {guess}")
+# current_year = 2024
+# print(birth_year)
+# guess = current_year - int(birth_year)
+# print(f"You are {guess}")
+
+# password length checker
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+length = len(password)
+print(f"{username}, your password {'*'*length} is {length} letters long")
 
 
 
