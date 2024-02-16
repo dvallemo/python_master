@@ -1,5 +1,5 @@
 # Learning Python 
-Programming fundamentals
+### Programming fundamentals
 * [Official Python Documentation]https://docs.python.org/3/, the goal is to build things and understand the language, not to know evey single function or method
 * [Jaya Zhané] (https://realpython.com/python-comments-guide/) commenting best practices for python
 
