@@ -47,16 +47,58 @@
 
 #9. Write a code that that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if
 # if anything else is stored in spam
-spam = int(input("Please write a value between 1-10: "))
-if spam == 1:
-    print("Hello")
-elif spam == 2:
-    print("Howdy")
-else:
-    print("Greetings!")
+#spam = int(input("Please write a value between 1-10: "))
+#if spam == 1:
+#   print("Hello")
+#elif spam == 2:
+#   print("Howdy")
+#else:
+#   print("Greetings!")
 
 #10. What keys can you press if your program is stuck in an infinite loop?
  #control c or control z
 
 #11. What is the difference between break and continue 
-    #break = 
+    #break = gets out of a loop completely and writes whatever is right outside the loop
+    #continue = gets out of the current iteration of the loop then continues to the next interation until the loop finishes. 
+
+# Example code
+#break
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+print("loop is finished!")
+
+#continue
+for x in range (1, 6):
+    if x == 3:
+        continue
+    print(x)
+print("loop is finished!")
+
+#12 What is the difference between range(10), range(0,10), and range(0, 10, 1) in a for loop?
+
+# range(10) loops from 0 to 10, range(0,10) also loops from 0 to 10, and range(0,10,1) loops form 0 to 10 witha step size of 1, 
+# so essentially they all do the same thing
+
+#13. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equialent program that prints the numbers
+# 1 to 10 using a while loop.
+
+for i in range(1, 11):
+    print(i)
+
+i = 0
+while i < 10:
+    i += 1
+    print(i)
+
+#14. If you had funciton named bacon() inside a module named spam, how would you call it after importing spam
+
+#import the module than call it with module.function()
+
+
+
+
+
+
