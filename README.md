@@ -2,7 +2,7 @@
 ### Programming fundamentals
 * [Official Python Documentation]https://docs.python.org/3/, the goal is to build things and understand the language, not to know evey single function or method
 * [Jaya Zhané] (https://realpython.com/python-comments-guide/) commenting best practices for python
-
+* [Automate the Boring Stuff] (https://www.youtube.com/watch?v=1DGe0oVsHeA&list=PLiEts138s9P0aG6soKBoMsmJrwIOPXoXR) A set of lectures on using Python to automate. 
 
 ### Writing Code online
 * https://glot.io/ Glot
