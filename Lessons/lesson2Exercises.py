@@ -54,3 +54,9 @@ elif spam == 2:
     print("Howdy")
 else:
     print("Greetings!")
+
+#10. What keys can you press if your program is stuck in an infinite loop?
+ #control c or control z
+
+#11. What is the difference between break and continue 
+    #break = 
