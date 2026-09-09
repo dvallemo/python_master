@@ -1,0 +1,6 @@
+HW#1 8/20/2026
+
+Take the LED GPIO circuit fom Lesson 4 and write a python prgram:
+
+1. Asks the user how many times they want to blink the LED and when he answers blink the led that many times
+2. Have it not re run the program and have the program ask the user again, then blink that many times again. 
